@@ -1,0 +1,68 @@
+
+.posts {
+  margin: 0;
+}
+
+.posts .post {
+  margin-bottom: 0.75em;
+  border-bottom: thin solid #f3f3f3;
+}
+
+.posts .post:last-child {
+  border-bottom: none;
+  margin-bottom: .375em;
+  padding-bottom: 0;
+}
+
+.post-link .post-title {
+  margin-top: 0;
+  font-weight: 600;
+  color: #333;
+}
+
+.post-footer {
+  @extend .italic;
+
+  margin-top: .75rem;
+  text-align: center;
+}
+
+.post-footer .avatar {
+  margin: 2rem 0;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.meta,
+.post-meta {
+  width: auto;
+  font-weight: 300;
+  margin: 0;
+  padding: .25em 0;
+  color: #7a7a7a;
+  font-style: italic;
+}
+
+.related-post-title {
+  border-bottom: thin solid #f3f3f3;
+}
+
+/* Style for the tags */
+.post-tags {
+  margin-top: 10px; /* Adjust spacing as needed */
+}
+
+/* Style for each tag */
+.tag {
+  display: inline-block;
+  margin-right: 10px; /* Adjust spacing between tags as needed */
+  font-size: 14px; /* Adjust the font size as needed */
+  color: #666; /* Set the text color to grey or your preferred color */
+}
+
+/* Style for the tag icon (image) */
+.tag-icon {
+  width: 16px; /* Set the width to 16 pixels */
+  height: 16px; /* Set the height to 16 pixels */
+  margin-right: 4px; /* Adjust spacing between icon and tag text as needed */
+}
